@@ -1,0 +1,22 @@
+#popup {
+    height: 200px;
+    width: 400px;
+    border: 2px solid red;
+    border-radius: 5px;
+    display: none;
+}
+
+#parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.child {
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    background-color: white;
+    margin: 50px;
+    border-radius: 5px;
+}
